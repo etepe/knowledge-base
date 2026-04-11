@@ -1,0 +1,18 @@
+# LLM Knowledge Base — yapılandırma
+version: 1
+
+domains:
+  - fetm
+  - hmm-crypto
+  - geopolitical
+
+paths:
+  wiki_path: ./wiki
+  raw_path: ./raw
+  output_path: ./outputs
+  prompts_path: ./prompts
+
+wiki:
+  index_file: _index.md
+  glossary_file: _glossary.md
+  connections_dir: connections

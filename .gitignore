@@ -1,0 +1,79 @@
+# =========================================================
+# LLM Knowledge Base — .gitignore
+# Kural: raw/ altındaki büyük/binary dosyaları dışarıda tut,
+# fakat meta notları (.md, .txt, .yaml) ve .gitkeep'leri izle.
+# wiki/ ve outputs/ her zaman izlenir.
+# =========================================================
+
+# ---- raw/ büyük dosyaları hariç tut ----
+raw/**/*.pdf
+raw/**/*.zip
+raw/**/*.tar
+raw/**/*.tar.gz
+raw/**/*.tgz
+raw/**/*.rar
+raw/**/*.7z
+raw/**/*.csv
+raw/**/*.tsv
+raw/**/*.parquet
+raw/**/*.xlsx
+raw/**/*.xls
+raw/**/*.docx
+raw/**/*.pptx
+raw/**/*.mp4
+raw/**/*.mov
+raw/**/*.mkv
+raw/**/*.webm
+raw/**/*.mp3
+raw/**/*.wav
+raw/**/*.flac
+raw/**/*.png
+raw/**/*.jpg
+raw/**/*.jpeg
+raw/**/*.gif
+raw/**/*.webp
+raw/**/*.bin
+raw/**/*.h5
+raw/**/*.pkl
+raw/**/*.npz
+raw/**/*.npy
+
+# ---- raw/ içinde yine de izlenmesi gereken meta dosyalar ----
+!raw/**/.gitkeep
+!raw/**/*.md
+!raw/**/*.txt
+!raw/**/*.yaml
+!raw/**/*.yml
+!raw/**/*.json
+!raw/**/README*
+
+# ---- Python / ortam çöpü ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+.Python
+.env
+.env.local
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ---- OS / editor çöpü ----
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ---- Log ve geçici dosyalar ----
+*.log
+*.tmp
+tmp/
