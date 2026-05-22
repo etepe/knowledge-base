@@ -32,6 +32,7 @@ raw/**/*.jpg
 raw/**/*.jpeg
 raw/**/*.gif
 raw/**/*.webp
+raw/**/*.svg
 raw/**/*.bin
 raw/**/*.h5
 raw/**/*.pkl
