@@ -1,4 +1,39 @@
 {
   "domain": "fetm",
-  "sources": []
+  "sources": [
+    {
+      "filename": "fet-volatility-merrill-sinclair-2014.md",
+      "status": "pending_compile",
+      "source_type": "paper",
+      "added_at": "2026-05-22",
+      "compiled_at": null,
+      "summary": "Merrill & Sinclair (2014). First Exit Time tabanlı volatilite tahmincisi: σ = Δ/√E[τ], Brownian motion altında, Jensen bias düzeltmesiyle. Close-to-close'a göre ~2× verimli, online tahmin için doğal.",
+      "key_concepts": [
+        "first exit time",
+        "FET volatility",
+        "barrier estimator",
+        "Jensen bias correction",
+        "online volatility estimation"
+      ],
+      "notes": "Ek PDF: fet-volatility-merrill-sinclair-2014.pdf (git'e girmez). wiki/fetm/fet-volatility.md için birincil kaynak."
+    },
+    {
+      "filename": "macd-v-spiroglou-2022.md",
+      "status": "pending_compile",
+      "source_type": "paper",
+      "added_at": "2026-05-22",
+      "compiled_at": null,
+      "summary": "Spiroglou (2022, NAAIM Founders Award). MACD-V = [(EMA12-EMA26)/ATR(26)]*100 — klasik MACD'nin zaman/piyasa karşılaştırılamazlık sorununu ATR-normalizasyonuyla çözüyor. ±150 OBOS, ±50 strong/weak, 200-EMA trend regime filter ile range rules (bull stage dip -100, bear rally tavanı +100).",
+      "key_concepts": [
+        "MACD-V",
+        "volatility normalization",
+        "ATR(26)",
+        "momentum lifecycle roadmap",
+        "trend regime filter",
+        "range rules",
+        "MACD-VH"
+      ],
+      "notes": "Ek PDF: macd-v-spiroglou-2022.pdf (43 sayfa, git'e girmez). wiki/fetm/macd-v.md için birincil kaynak. FETM stratejisinin 'trend momentum' bileşeninin teorik temeli."
+    }
+  ]
 }

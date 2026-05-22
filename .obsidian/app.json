@@ -1,0 +1,12 @@
+{
+  "newLinkFormat": "shortest",
+  "useMarkdownLinks": false,
+  "attachmentFolderPath": "raw/_attachments",
+  "alwaysUpdateLinks": true,
+  "promptDelete": true,
+  "showUnsupportedFiles": true,
+  "showLineNumber": true,
+  "strictLineBreaks": false,
+  "tabSize": 2,
+  "useTab": false
+}

@@ -77,3 +77,11 @@ desktop.ini
 *.log
 *.tmp
 tmp/
+
+# ---- Obsidian — kişisel/oturum durumu ignore, paylaşılan config track ----
+.obsidian/workspace
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.obsidian/appearance.json
+.obsidian/hotkeys.json

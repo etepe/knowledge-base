@@ -93,6 +93,24 @@ Yeni domain eklemek için `.kb-config.yaml` içine kaydını ekle, ardından
 - Ancak `raw/**/*.md`, `raw/**/*.txt`, `raw/**/*.yaml` gibi meta dosyalar dahildir.
 - `wiki/` ve `outputs/` her zaman izlenir.
 
+## Obsidian Vault
+
+Repo kökü aynı zamanda bir Obsidian vault'tur. Klasör yapısı:
+
+- **vault root** = repo root → `wiki/`, `raw/`, `outputs/` tek graf altında.
+- **attachment klasörü** = `raw/_attachments/` (varsayılan ek dosya hedefi).
+- **wikilinks** açık (`[[note-name]]`), `useMarkdownLinks: false`.
+- Paylaşılan config (`app.json`, `core-plugins.json`, `graph.json`) git'te;
+  `workspace.json` ve cache ignore'lu.
+
+Kullanım:
+
+1. Obsidian'ı aç → *Open folder as vault* → bu repo klasörünü seç.
+2. Graph view'da renk grupları domain'lere göre ayrılmıştır.
+3. Yeni kaynak eklerken `raw/<domain>/<slug>.md` notuna YAML frontmatter
+   ekle (`title`, `authors`, `tags`, `attachment`) — Obsidian Properties
+   paneli otomatik göstersin.
+
 ## Katkı Akışı
 
 1. `raw/` altına yeni kaynakları yerleştir.
