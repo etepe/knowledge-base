@@ -34,6 +34,105 @@
         "MACD-VH"
       ],
       "notes": "Ek PDF: macd-v-spiroglou-2022.pdf (43 sayfa, git'e girmez). wiki/fetm/macd-v.md için birincil kaynak. FETM stratejisinin 'trend momentum' bileşeninin teorik temeli."
+    },
+    {
+      "filename": "bettersystemtrader-spiroglou-macd-v.md",
+      "status": "pending_compile",
+      "source_type": "podcast",
+      "added_at": "2026-05-22",
+      "compiled_at": null,
+      "summary": "Better System Trader podcast — Alex Spiroglou interview: how volatility-normalized MACD (MACD-V) fixes momentum trading signal comparability across time and markets. Bridges paper's theory with practitioner usage.",
+      "key_concepts": [
+        "MACD-V",
+        "momentum signals",
+        "volatility normalization",
+        "ATR-normalized indicators",
+        "interview"
+      ],
+      "notes": "Spiroglou'nun 2022 NAAIM paper'ının pratik anlatımı; podcast transkripti/şownotu olarak ingest edildi."
+    },
+    {
+      "filename": "arxiv-2604-26063.md",
+      "status": "pending_compile",
+      "source_type": "paper",
+      "added_at": "2026-05-22",
+      "compiled_at": null,
+      "summary": "Lin, Lin & Zhang — A Volume-Price-Adjusted MACD Trading Strategy with Sensitivity Calibration for U.S. Equity Indices. SPY/QQQ/DIA üzerinde hacim-fiyat ağırlıklı MACD varyantı; bootstrap robustness ve duyarlılık kalibrasyonu. arXiv 2604.26063 (HTML versiyonu).",
+      "key_concepts": [
+        "volume-price MACD",
+        "VPMACD",
+        "sensitivity calibration",
+        "bootstrap robustness",
+        "U.S. equity indices",
+        "SPY",
+        "QQQ",
+        "DIA"
+      ],
+      "notes": "FETM'in 'trend momentum' bileşenine başka bir MACD varyantı; macd-v-spiroglou-2022 ile karşılaştırılmalı (volatilite-norm vs. volume-price-adj)."
+    },
+    {
+      "filename": "man-is-this-time-different.md",
+      "status": "pending_compile",
+      "source_type": "article",
+      "added_at": "2026-05-22",
+      "compiled_at": null,
+      "summary": "Man Group AHL — 'Is This Time Different?' Trend-following stratejilerinin 2022-2024 dönemindeki drawdown'ı tarihsel rejim örüntüsüne göre değerlendiriyor; bootstrap'ler ve trend rejimine dönüş analiziyle 'trend ölmedi' tezini destekliyor.",
+      "key_concepts": [
+        "trend following",
+        "drawdown",
+        "regime change",
+        "bootstrap analysis",
+        "Man AHL",
+        "trend reversal probability"
+      ],
+      "notes": "FETM rejim filtresi tartışmasının 'trendin öldüğü iddiası' kısmına karşı argüman; chart'ları figure_3a/9/10b/11/Table_4 olarak SVG ile mevcut."
+    },
+    {
+      "filename": "arxiv-1710-01503.md",
+      "status": "pending_compile",
+      "source_type": "paper",
+      "added_at": "2026-05-22",
+      "compiled_at": null,
+      "summary": "Hsieh & Barmish (2017) — On Drawdown-Modulated Feedback Control in Stock Trading. Drawdown'a duyarlı geri-besleme kontrol şeması; risk yönetimi perspektifinden pozisyon ölçekleme. arXiv 1710.01503.",
+      "key_concepts": [
+        "drawdown control",
+        "feedback control",
+        "stock trading",
+        "risk management",
+        "position sizing"
+      ],
+      "notes": "FETM'in 'filtered' katmanına teorik temel: rejim filtresi + drawdown-modulated size. arxiv-1506-00166 (drawdown olasılığı min) ile felsefe komşusu."
+    },
+    {
+      "filename": "arxiv-1506-00166.md",
+      "status": "pending_compile",
+      "source_type": "paper",
+      "added_at": "2026-05-22",
+      "compiled_at": null,
+      "summary": "Angoshtari, Bayraktar & Young (2015) — Optimal Investment to Minimize the Probability of Drawdown. Drawdown olasılığını minimize eden optimal yatırım stratejisi; stokastik kontrol formülasyonu. arXiv 1506.00166.",
+      "key_concepts": [
+        "drawdown probability",
+        "optimal investment",
+        "stochastic control",
+        "risk minimization"
+      ],
+      "notes": "FETM risk katmanının matematiksel sınırını veriyor; arxiv-1710-01503 (feedback control) ile birlikte 'drawdown-aware sizing' köprüsü."
+    },
+    {
+      "filename": "arxiv-2601-05716.md",
+      "status": "pending_compile",
+      "source_type": "paper",
+      "added_at": "2026-05-22",
+      "compiled_at": null,
+      "summary": "Sungwoo Kang (2026) — When the Rules Change: Adaptive Signal Extraction via Kalman Filtering and Markov-Switching Regimes. Kalman + Markov-switching ile rejim-uyarlı sinyal çıkarma; FETM'in rejim filtresine doğrudan komşu. arXiv 2601.05716.",
+      "key_concepts": [
+        "Kalman filter",
+        "Markov-switching",
+        "regime detection",
+        "adaptive signal extraction",
+        "state-space models"
+      ],
+      "notes": "Cross-domain: hmm-crypto domain'iyle güçlü köprü (Markov-switching ⇄ HMM). FETM rejim filtresi v.3 tartışması için birincil kaynak."
     }
   ]
 }

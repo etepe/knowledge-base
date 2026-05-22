@@ -1,0 +1,81 @@
+{
+  "domain": "hmm-crypto",
+  "sources": [
+    {
+      "filename": "ajpas-2025-v27i7781.md",
+      "status": "pending_compile",
+      "source_type": "paper",
+      "added_at": "2026-05-22",
+      "compiled_at": null,
+      "summary": "Asian Journal of Probability and Statistics, 2025, vol. 27, issue 7, article 781 — DOI 10.9734/ajpas/2025/v27i7781. İçerik fetch edilemedi (HTTP 403, anti-bot). Stub dosya manuel PDF bekliyor.",
+      "key_concepts": [
+        "AJPAS",
+        "probability",
+        "statistics",
+        "stub"
+      ],
+      "notes": "fetch_status=blocked. Manuel olarak PDF indirilip raw/hmm-crypto/ajpas-2025-v27i7781.pdf olarak kaydedilmeli; sonra bu kayıt zenginleştirilip status pending_compile kalır."
+    },
+    {
+      "filename": "preprints-202603-0831.md",
+      "status": "pending_compile",
+      "source_type": "preprint",
+      "added_at": "2026-05-22",
+      "compiled_at": null,
+      "summary": "Preprints.org manuscript 202603.0831 (Mart 2026 sıra 0831). İçerik fetch edilemedi (HTTP 403). Stub dosya manuel PDF bekliyor.",
+      "key_concepts": [
+        "preprint",
+        "stub"
+      ],
+      "notes": "fetch_status=blocked. /v1 ve /v1/download endpoint'leri de 403. Manuel indirme sonrası başlık, yazarlar ve abstract eklenmeli."
+    },
+    {
+      "filename": "mdpi-mathematics-13-10-1577.md",
+      "status": "pending_compile",
+      "source_type": "paper",
+      "added_at": "2026-05-22",
+      "compiled_at": null,
+      "summary": "MDPI Mathematics 13(10):1577. İçerik fetch edilemedi (Cloudflare bot challenge, HTTP 403). Stub dosya manuel PDF bekliyor.",
+      "key_concepts": [
+        "MDPI",
+        "mathematics",
+        "stub"
+      ],
+      "notes": "fetch_status=blocked. /pdf ve /htm endpoint'leri de 403. Manuel indirme sonrası tam metin + frontmatter eklenmeli."
+    },
+    {
+      "filename": "arxiv-2307-06400.md",
+      "status": "pending_compile",
+      "source_type": "paper",
+      "added_at": "2026-05-22",
+      "compiled_at": null,
+      "summary": "Foroni, Merlo & Petrella (2023) — Quantile and expectile copula-based hidden Markov regression models for the analysis of the cryptocurrency market. Kripto piyasalarında copula-HMM ile quantile/expectile regression; coğrafi olarak en yakın 'HMM + crypto' kaynağı. arXiv 2307.06400.",
+      "key_concepts": [
+        "hidden Markov model",
+        "copula",
+        "quantile regression",
+        "expectile regression",
+        "cryptocurrency",
+        "regime modeling"
+      ],
+      "notes": "hmm-crypto domain'inin amiral kaynaklarından biri. FETM'in rejim filtresine alternatif kuyruk-duyarlı bir HMM modeli; cross-domain bağlantı: [[arxiv-2601-05716]] (Markov-switching)."
+    },
+    {
+      "filename": "quantinsti-regime-adaptive-trading-python.md",
+      "status": "pending_compile",
+      "source_type": "article",
+      "added_at": "2026-05-22",
+      "compiled_at": null,
+      "summary": "QuantInsti blog — Step-by-Step Python Guide for Regime-Specific Trading Using HMM and Random Forest. Python ile HMM rejim tespiti + RF ile rejime özel strateji seçimi; pratik kod örnekli tutorial.",
+      "key_concepts": [
+        "HMM",
+        "random forest",
+        "regime adaptive trading",
+        "Python",
+        "tutorial",
+        "GaussianHMM"
+      ],
+      "notes": "wiki/hmm-crypto altında 'pratik uygulama' makalesi için iyi başlangıç; FETM rejim filtresi kodlamasına da örnek olabilir."
+    }
+  ]
+}

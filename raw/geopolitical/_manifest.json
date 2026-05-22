@@ -1,0 +1,56 @@
+{
+  "domain": "geopolitical",
+  "sources": [
+    {
+      "filename": "atlasinstitute-strait-hormuz-2026.md",
+      "status": "pending_compile",
+      "source_type": "report",
+      "added_at": "2026-05-22",
+      "compiled_at": null,
+      "summary": "Atlas Institute for International Affairs — 'The Strait that Moves the Market: The 2026 Strait of Hormuz Crisis and the Anatomy of a Global Energy Shock.' 2026 Hormuz krizinin küresel enerji şoku perspektifinden anatomisi.",
+      "key_concepts": [
+        "Strait of Hormuz",
+        "2026 crisis",
+        "global energy shock",
+        "oil markets",
+        "geopolitical risk"
+      ],
+      "notes": "Geopolitical domain'in 2026 Hormuz çerçevesi için üst-resim makalesi; everbridge ve discoveryalert kaynaklarıyla aynı olayı üç farklı açıdan veriyor."
+    },
+    {
+      "filename": "everbridge-strait-hormuz-2026-03.md",
+      "status": "pending_compile",
+      "source_type": "report",
+      "added_at": "2026-05-22",
+      "compiled_at": null,
+      "summary": "Everbridge (10 Mart 2026) — Fragmented Efforts to Secure Strait of Hormuz Passage Sustain Risks for Businesses and Energy Markets. Boğazın fiilen kapalı olduğu, normal 100 vessel/gün'den birkaç vessel'a düştüğü; 2025 H1'de 21 mbpd (küresel %20) akışı; parçalı güvenlik girişimleri ve işletmeler için süregelen riskler.",
+      "key_concepts": [
+        "Strait of Hormuz",
+        "maritime traffic disruption",
+        "21 million barrels per day",
+        "insurance",
+        "shipping risk",
+        "energy storage bottleneck",
+        "fragmented security"
+      ],
+      "notes": "Operasyonel/işletme bakışı: sigortacılar, gemi operatörleri ve enerji altyapısı. PDF: everbridge-strait-hormuz-2026-03.pdf (~590 KB, git'e girmez)."
+    },
+    {
+      "filename": "discoveryalert-strait-hormuz-2026.md",
+      "status": "pending_compile",
+      "source_type": "article",
+      "added_at": "2026-05-22",
+      "compiled_at": null,
+      "summary": "Discovery Alert (AU) — Strait of Hormuz Oil Flows: 2026 Crisis Explained. Enerji güvenliği uzmanı bakışıyla 'waterway becomes a weapon' çerçevesi; piyasa fiyatlama-davranış uyumsuzluğu ('markets ignore red flags') tartışması.",
+      "key_concepts": [
+        "Strait of Hormuz",
+        "oil flows",
+        "energy security",
+        "market pricing",
+        "weaponization of waterway",
+        "2026"
+      ],
+      "notes": "Piyasa-davranışı bakışı: atlasinstitute (kriz anatomisi) ve everbridge (operasyonel risk) ile üçleyen analiz; çoğunlukla yorumsal."
+    }
+  ]
+}
