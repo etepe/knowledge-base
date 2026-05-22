@@ -10,7 +10,7 @@ _(henüz makale yok — `prompts/compile.md` ile üretilecek)_
 
 - [ ] `regime-filtering.md`
 - [ ] `fet-volatility.md` — kaynak: [[fet-volatility-merrill-sinclair-2014]]
-- [ ] `macd-v.md`
+- [ ] `macd-v.md` — kaynak: [[macd-v-spiroglou-2022]]
 
 ## Ham Kaynaklar
 
@@ -19,6 +19,7 @@ Ham dosyalar ve notlar: [`raw/fetm/`](../../raw/fetm/)
 | Kaynak                                                                                  | Tür   | Durum            |
 |-----------------------------------------------------------------------------------------|-------|------------------|
 | [[fet-volatility-merrill-sinclair-2014]] — Merrill & Sinclair, *Volatility Estimation via First Exit Times* (2014) | paper | pending_compile  |
+| [[macd-v-spiroglou-2022]] — Spiroglou, *MACD-V: Volatility Normalised Momentum* (2022, NAAIM Founders Award) | paper | pending_compile  |
 
 ## İlgili Domainler
 
